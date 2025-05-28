@@ -1,98 +1,86 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luxo - Aluguel de Iates</title>
-    <style>
-        body {
-            background-color: #EBEBEB;
-            color: #21272B;
-            
-        }
-        header {
-            background-color: #21272B;
-            color: #FFFFFF;
-            
-        }
-        nav {
-            background-color: #21272B;
-            text-align: center;
-        }
-        .menu-azul {
-            color: #1BB4E8;
-        }
-        .menu-branco {
-            color: #FFFFFF;
-        }
-        
-        .box1 {
-            background-color: #1A3243;
-            color: #FFFFFF;
-            
-        }
-        .box2 {
-            background-color: #1BB4E8;
-            color: #FFFFFF;
-        }
-        .box3 {
-            background-color: #C6B07F;
-            color: #FFFFFF;
-        }    
-       
-    </style>
+    <title>Luxo Aluguel de Iates</title>
+    <link rel="stylesheet" href="layout.css">
 </head>
 <body>
-    <header class="menu-azul"><img src="./Imagens/barco1.png" alt="Barco Principal"><b>Luxo <br /> </b></header>
-    <header class="menu-branco"><b>Aluguel de Iates</b></header>
-    <nav>
-        <a href="#" class="menu-azul">PÁGINA INICIAL</a>
-        <a href="#" class="menu-branco">ALUGUEL DE IATES</a>
-        <a href="#" class="menu-branco">DESTINOS</a>
-        <a href="#" class="menu-branco">TRIPULAÇÃO</a>
-        <a href="#" class="menu-branco">CONTATO</a>
-    </nav>
-    
-    <div class="quadro">
-        
-        <img src="./Imagens/barcoprincipal.jpg" alt="Barco Principal">
-        <div class="box1">
-            <p><i>Você só encontra coisas boas, se combinar luxo e paixão.</i></p>
-            <p><img src="./Imagens/barco2.png" alt="Barco 2"><i>Ligue agora para agendar as férias de sua vida: <span style="color: #C6B07F;"><b>(00) 8000-0000</b></span></i></p>
+    <div id="geral">
+        <header id="topo">
+            <div id="topo-logo">
+                <img src="./Imagens/barco1.png" alt="Logo Barco1">
+            </div>
+
+            <div id="topo-titulo">
+                <h1>Luxo</h1>
+                <h2><i>Aluguel de Iates</i></h2>
+            </div>
+
+            <div id="menu">
+                <ul>
+                    <li><a href="#">PÁGINA INICIAL</a></li>
+                    <li><a href="#">ALUGUEL DE IATES</a></li>
+                    <li><a href="#">DESTINOS</a></li>
+                    <li><a href="#">TRIPULAÇÃO</a></li>
+                    <li><a href="#">CONTATO</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div id="main">
+            <img src="./Imagens/barcoprincipal.jpg" alt="Imagem principal">
+            
+            <div id="main-texto">
+                
+                <div id="main-texto1">
+                    <p><i>Você só encontra coisas boas, se combinar luxo e paixão.</i></p>
+                </div>
+                
+                <div id="main-texto2">
+                    <img src="./Imagens/barco2.png" alt="Logo barquinho">
+                    <p><i>Ligue agora para agendar as férias de sua vida: <strong>(00) 8000-0000</strong></i></p>
+                </div>        
+            </div>
         </div>
-    </div>
+
+        <div id="conteudo">
+            <div class="coluna">
+                <div id="destinos">
+                    <img src="./Imagens/destino.png" alt="icone destino">
+                    <h3><i>Destinos</i></h3>
+                </div>
+
+                <div id="destinos-sub">
+                    <h4>Sou um título. Clique aqui para me editar.</h4>
+                    <p>Clique aqui para adicionar seu texto e me editar. É fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e poderá adicionar seu próprio conteúdo e mudar fontes. Sou um ótimo lugar para contar sua história e permitir que seus visitantes saibam um pouco mais sobre você.</p>
+                    <img src="./Imagens/barcodestino.jpg" alt="Imagem Destino">
+                </div>
+            </div>    
+
+            <div class="coluna">
+                <div id="frota">
+                    <img src="./Imagens/nossafrota.png" alt="icone frota">
+                    <h3><i>Nossa Frota</i></h3>
+                </div> 
+
+                <div id="frota-sub">    
+                    <h4>Sou um título. Clique aqui para me editar.</h4>
+                    <p>Clique aqui para adicionar seu texto e me editar. É fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e poderá adicionar seu próprio conteúdo e mudar fontes. Sou um ótimo lugar para contar sua história e permitir que seus visitantes saibam um pouco mais sobre você.</p>
+                    <div id="frota-imagens">
+                        <img src="./Imagens/barconossafrota2.jpg" alt="Iate 2">
+                        <img src="./Imagens/barconossafrota1.jpg" alt="Iate 1">                       
+                        <img src="./Imagens/barconossafrota1.jpg" alt="Iate 1">
+                        <img src="./Imagens/barconossafrota2.jpg" alt="Iate 2">
+                    </div>
+                </div>
+            </div>
     
-          
-    <div>           
-            <div class="box2">
-                
-                <h2><img src="./Imagens/destino.png" alt="Icone"> <b><i>Destinos</i></b></h2></div>
-            
-                    <h3><i>Venha conhecer esses lugares maravilhosos</i></h3>
+        </div>
 
-                        <p>Que tal sair da rotina e embarcar em uma viagem inesquecível? Novos lugares que possibilitarão criar memórias inesquecíveis para você e toda sua família. 
-                Não perca essa oportunidade! Viage por todo um mix de beleza visual e sensações extraordinárias. Seu próximo destino pode estar mais perto do que você imagina! </p>
-            
-                <img src="./Imagens/barcodestino.jpg" alt="Destino">
-    </div>
-        
-    <div>
-            <div class="box3">
-                
-                <h2><img src="./Imagens/nossafrota.png" alt="Icone"> <b><i>Nossa Frota</i></b></h2></div>
-            
-                    <h3><i>Conheça os iates de luxo disponíveis para aluguel</i></h3>
-            
-                        <p>Vamos aproveitar um dia incrível a bordo de um iate exclusivo? Relaxe sob o sol, sinta a brisa do mar e desfrute de momentos inesquecíveis com conforto e sofisticação.
-                    Seja qual for o propósito, temos o iate perfeito para você!! Venha conferir e reservar agora, o iate que transformará seu dia em uma experiência incrível e única!</p>                     </p>
-            
-                    <img src="./Imagens/barconossafrota1.jpg" alt="Iate 1">
-                    <img src="./Imagens/barconossafrota2.jpg" alt="Iate 2">
-    </div>
-
-    <footer>
-        <p>&copy; 2023 por Luxo Aluguel de Iates</p>
-    </footer>
+        <footer class="rodape">
+            <p>&copy; 2023 por Luxo aluguel de iates</p>
+        </footer>
+    </div>    
 </body>
 </html>
-
